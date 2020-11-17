@@ -1,0 +1,23 @@
+{
+  "name": "pizza-delivery",
+  "version": "1.0.0",
+  "description": "pizza-delivery app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "Umesh Verma",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.10.14",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "validator": "^13.1.17"
+  }
+}
